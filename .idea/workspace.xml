@@ -4,9 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b707fbbd-f450-474b-bbd4-ef61ff519c39" name="Changes" comment="Setup">
+    <list default="true" id="b707fbbd-f450-474b-bbd4-ef61ff519c39" name="Changes" comment="Pages and HomePage finish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/AileenPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/AileenPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/AusstellungserfolgePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/AusstellungserfolgePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ChiffonPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ChiffonPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/FleurPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/FleurPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/JackyPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/JackyPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/KontaktPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/KontaktPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/LiebevolleErinnerungenPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/LiebevolleErinnerungenPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/LinksPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/LinksPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Lou-LouPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Lou-LouPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/NachwuchsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/NachwuchsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/NachzuchtPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/NachzuchtPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/NewsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/NewsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/OldiesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/OldiesPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/WelpenPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/WelpenPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/WirÜberUnsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/WirÜberUnsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/WurfPlanungPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/WurfPlanungPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +32,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="HomePage" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -45,7 +67,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/timrode/IdeaProjects/ColliesVomParadies/frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689268023590</updated>
       <workItem from="1689268024590" duration="216000" />
-      <workItem from="1689268249389" duration="568000" />
+      <workItem from="1689268249389" duration="8572000" />
     </task>
     <task id="LOCAL-00001" summary="Setup">
       <created>1689268652847</created>
@@ -99,7 +121,28 @@
       <option name="project" value="LOCAL" />
       <updated>1689268752886</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Setup">
+      <created>1689268859777</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689268859777</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Route to HomePage">
+      <created>1689268987343</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689268987343</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Pages and HomePage finish">
+      <created>1689275822891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689275822891</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +161,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup" />
+    <MESSAGE value="Route to HomePage" />
+    <MESSAGE value="Pages and HomePage finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pages and HomePage finish" />
   </component>
 </project>
