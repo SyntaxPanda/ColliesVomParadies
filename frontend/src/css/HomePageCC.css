@@ -1,0 +1,144 @@
+.homePage {
+    display: grid;
+    grid-template-columns: 16vw 84vw;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../image/hintergrundsweiss.jpg");
+    overflow: auto;
+}
+
+.menuList {
+    display: grid;
+    border-right: 1px solid black;
+    width: 16vw;
+    height: 100vh;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.page {
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    width: 84vw;
+}
+
+.imageHeaderHomePage {
+    height: 35vh;
+}
+
+.lastUpdateHomePageBox {
+    display: grid;
+    justify-content: center;
+    height: 7vh;
+    align-content: center;
+    font-size: 2.2vh;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+.infoHomePage {
+    display: grid;
+    height: 10vh;
+    align-content: flex-end;
+    color: red;
+    font-size: 4.2vh;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+.breakHomePage {
+    display: grid;
+    align-self: flex-start;
+    font-size: 4.3vh;
+    color: red;
+
+}
+
+.emailHomePage {
+    display: grid;
+    align-self: flex-start;
+    font-size: 3.5vh;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+.überschriftHomePage{
+    display: grid;
+    justify-content: center;
+    height: 15vh;
+    align-content: center;
+    width: 65vw;
+    margin-top: 10vh;
+    font-size: 4.7vh;
+    text-decoration: underline;
+    text-decoration-color: darkred;
+    color: darkred;
+    font-style: italic;
+    font-weight: 550;
+    font-family: Georgia, serif;
+}
+
+.abgrenzungHomePage{
+    display: grid;
+    justify-content: center;
+    height: 20vh;
+    align-content: center;
+}
+
+.marlieUndRiekonBoxHomePage{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.textMarlieUndRiekonHomePage{
+    display: grid;
+    font-size: 4vh;
+    width: 50vw;
+    justify-self: center;
+    color: darkred;
+    font-weight: 500;
+    font-family: Georgia, serif;
+    font-style: italic;
+    margin-bottom: 2vh;
+}
+
+.imageMarlieUndRiekonHomePage{
+    display: grid;
+    height: 80vh;
+    width: 50vw;
+    justify-self: center;
+    background-image: url("../image/marlie_+_reikonHomeSeite.jpeg");
+    background-size: 50vw 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.abgrenzung2HomePage{
+    display: grid;
+    justify-content: center;
+    height: 30vh;
+    align-content: center;
+}
+
+.welpenLinkHomePage{
+    display: grid;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 4vh;
+    font-weight: 600;
+    color: darkred;
+}
+
+.abgrenzung3HomePage{
+    display: grid;
+    justify-content: center;
+    height: 30vh;
+    align-content: center;
+}
